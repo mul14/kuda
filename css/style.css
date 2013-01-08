@@ -1,0 +1,146 @@
+@import url(http://fonts.googleapis.com/css?family=Arimo);
+
+body {
+    font-family: Arimo, Helvetica, Arial, sans-serif;
+    font-size: 62.5%;
+    color: #333;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+.logo,
+.logo:hover {
+    color: white;
+    font-size: 2.4em;
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.menu {
+    background: #2D3538;
+    padding: 10px 0;
+    border-bottom: 1px solid #1b1d1e;
+}
+
+.featured {
+    background: #2D3538;
+    border-top: 1px solid #3e4a51;
+    color: #fcfcfc;
+}
+
+.nav {
+    padding: 10px 0;
+}
+
+.nav a {
+    padding: 8px 8px;
+    color: #8a8a8a;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.nav a:hover {
+    color: #fff;
+}
+
+.nav a.active {
+    background: #718287;
+    color: #fff;
+    background: -webkit-linear-gradient(top, #718287, #456068);
+    background: -moz-linear-gradient(top, #718287, #456068);
+    background: -o-linear-gradient(top, #718287, #456068);
+    background: -ms-linear-gradient(top, #718287, #456068);
+    background: linear-gradient(top, #718287, #456068);
+    text-shadow: 1px 1px 0 black;
+}
+
+.subheader {
+    color: #718287;
+    line-height: 1.6em;
+    font-size: 1.6em;
+    margin-bottom: 30px;
+}
+
+.subheader h1 {
+    font-size: 1.8em;
+    text-shadow: 1px 1px 0 #000;
+    color: #fcfcfc;
+}
+
+a.big-btn {
+    background: #2688c9;
+    background: -webkit-linear-gradient(top, #2688c9, #186fa5);
+    background: -moz-linear-gradient(top, #2688c9, #186fa5);
+    background: -o-linear-gradient(top, #2688c9, #186fa5);
+    background: -ms-linear-gradient(top, #2688c9, #186fa5);
+    background: linear-gradient(top, #2688c9, #186fa5);
+    font-weight: normal;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 0 #333;
+    text-decoration: none;
+}
+
+a.big-btn:hover {
+    background: -webkit-linear-gradient(top, #4b91bc, #4381a5);
+    background: -moz-linear-gradient(top, #4b91bc, #4381a5);
+    background: -o-linear-gradient(top, #4b91bc, #4381a5);
+    background: -ms-linear-gradient(top, #4b91bc, #4381a5);
+    background: linear-gradient(top, #4b91bc, #4381a5);
+}
+
+a.big-btn:active {
+    background: -webkit-linear-gradient(bottom, #2688c9, #186fa5);
+    background: -moz-linear-gradient(bottom, #2688c9, #186fa5);
+    background: -o-linear-gradient(bottom, #2688c9, #186fa5);
+    background: -ms-linear-gradient(bottom, #2688c9, #186fa5);
+    background: linear-gradient(bottom, #2688c9, #186fa5);
+}
+
+.border-bottom-triangle {
+    background: url('../img/triangle-border.png') repeat-x;
+    height: 6px;
+}
+
+.content {
+    color: #333;
+    font-size: 1.4em;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.content img {
+    /*height: 169px;
+    width: 100%;
+    overflow: hidden;*/
+    vertical-align: top;
+}
+
+.title {
+    background: url('../img/dotted.png') center center repeat-x;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.title span {
+    background: white;
+    padding: 0 5px;
+}
+
+footer {
+    background: #2D3538;
+    padding: 20px;
+    font-size: 1.2em;
+    color: white;
+}
+
+footer a {
+    padding: 10px;
+    color: white;
+}
